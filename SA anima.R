@@ -5,7 +5,7 @@ library(igraph)
 library(animation)
 
 # Load the dataset
-internet_data <- read.csv("C:/Users/ASUS/Documents/Internet Speed.csv")
+internet_data <- read.csv("Internet Speed.csv")
 
 # Normalize and prepare features
 internet_data$norm_latency <- scale(internet_data$Ping_latency)
