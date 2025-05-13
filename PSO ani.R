@@ -6,7 +6,7 @@ library(igraph)
 library(animation)
 
 # Load and prepare the dataset
-internet_data <- read.csv("C:/Users/ASUS/Documents/Internet Speed.csv")
+internet_data <- read.csv("Internet Speed.csv")
 head(internet_data)
 
 # Normalize features and simulate packet loss
