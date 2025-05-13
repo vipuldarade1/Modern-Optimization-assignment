@@ -6,7 +6,7 @@ library(igraph)
 library(animation)
 
 # Load the dataset (adjust path as needed)
-internet_data <- read.csv("C:/Users/ASUS/Documents/Internet Speed.csv")
+internet_data <- read.csv("Internet Speed.csv")
 
 # Quick view
 head(internet_data)
